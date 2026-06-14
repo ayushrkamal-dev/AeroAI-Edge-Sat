@@ -16,6 +16,12 @@ In deep space missions, bandwidth is extremely expensive. Traditional satellites
 - **3D Ground Control Station:** A premium, real-time web dashboard visualizing live orbital telemetry, satellite position, and AI confidence levels.
 - **Automated Threat Detection:** Millisecond response times to environmental hazards.
 
+## ⚙️ Hardware Engineering & CAD
+Our CanSat features a custom PCB designed to house the ESP32 DevKit V1, BME280 (Temperature/Pressure/Altitude), and MQ135 (Gas) sensors alongside a custom power regulation circuit (LM2596 + AMS1117).
+*   **PCB Specifications:** 80mm x 60mm, 2-Layer, 1.6mm thickness.
+*   **3D CAD Enclosure:** The physical CanSat pod was meticulously designed in Fusion360 to house the electronics securely.
+*   🔗 **[View our full 3D CAD Design in Fusion360](https://a360.co/4oprqiB)**
+
 ## 🏗️ Repository Structure
 - `/dashboard` — The Next.js 3D Web Dashboard (Ground Control Station).
 - `/hardware` — PCB Schematics, CAD models, and component selections.
